@@ -7,7 +7,7 @@ Each time the page is refreshed, two players roll a dice and the winner is decid
 
 ## 🚀 Live Demo
 
-👉 *(Add your GitHub Pages link here after deployment)*
+👉 https://sooryadev-b.github.io/Dice-game/
 
 ---
 
