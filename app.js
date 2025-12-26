@@ -3,6 +3,11 @@ const img2 = document.querySelector(".img2");
 let element = document.getElementById("heading")
 let player1 = Math.floor(Math.random() * 6) + 1;
 let player2 = Math.floor(Math.random() * 6) + 1;
+let refreshButton = document.querySelector(".refresh-button");
+
+refreshButton.addEventListener("click", function(){
+    location.reload();
+});
 
 img1.setAttribute("src", `./images/dice${player1}.png`);
 img2.setAttribute("src", `./images/dice${player2}.png`);
